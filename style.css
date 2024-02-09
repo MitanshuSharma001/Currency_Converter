@@ -1,0 +1,182 @@
+body{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    position: relative;
+
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 120px;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    height: 400px;
+    padding-left: 90px;
+    padding-right: 90px;
+    border-radius: 9px;
+    box-shadow: 4px 4px 81px 30px blue;
+    /* margin-top: 10%; */
+}
+.desh{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 9px;
+    box-shadow: 2px 2px 4px 8px red;
+    text-shadow: 9px 4px 7px burlywood;
+}
+select{
+    width: 140px;
+    height: 40px;
+    background-color: azure;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 22px;
+    color: rgb(255, 0, 183);
+    letter-spacing: 2.5px;
+}
+.output{
+    position: absolute;
+    top: 500px;
+    height: 50px;
+    width: max-content;
+    padding: 0px 22px 0px 22px;
+    background-color: rgb(15, 8, 111);
+    border-radius: 25px;
+    color: azure;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.timetaken{
+    position: absolute;
+    right: 30px;
+    top: 250px;
+    width: 350px;
+    height: 150px;
+    padding: 50px 30px 50px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: blueviolet;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px black;
+    background-color: antiquewhite;
+}
+button{
+    width: 150px;
+    height: 80px;
+    background-color: blue;
+    position: absolute;
+    top: 600px;
+    font-size: 21px;
+    
+}
+button:active{
+    background-color: brown;
+}
+input{
+    position: absolute;
+    top: 180px;
+    height: 50px;
+    width: max-content;
+    padding: 0px 22px 0px 22px;
+    background-color: rgb(15, 8, 111);
+    border-radius: 25px;
+    color: azure;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.introduction{
+    position: absolute;
+    top: 40px;
+    height: 50px;
+    width: max-content;
+    padding: 0px 22px 0px 22px;
+    background-color: rgb(10, 108, 147);
+    border-radius: 25px;
+    color: rgb(219, 168, 14);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 50px 20px 50px;
+}
+.flag1{
+    position: absolute;
+    top: 270px;
+    left: 596px;
+    width: 5%;
+}
+.flag2{
+    position: absolute;
+    top: 270px;
+    right: 596px;
+    width: 5%;
+}
+.c1{
+    position: absolute;
+    top: 400px;
+    left: 560px;
+    display: flex;
+    background-color: rgb(255, 185, 127);
+    width: 150px;
+    height: max-content;
+    border-radius: 19px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 27px;
+    color: rgb(12, 148, 14);
+    padding: 5px 3x 5px 5px;
+    text-align: center;
+    
+
+}
+.c2{
+    position: absolute;
+    top: 400px;
+    right: 560px;
+    display: flex;
+    background-color: rgb(255, 185, 127);
+    width: 150px;
+    height: max-content;
+    border-radius: 19px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 27px;
+    color: rgb(12, 148, 14);
+    padding: 5px 3x 5px 3px;
+    text-align: center;
+}
+.changeb{
+    position: absolute;
+    top: 344px;
+    left: 713px;
+    height: 40px;
+    width: 80px;
+    background-color: aquamarine;
+}
+.changeb:active{
+    background-color: rgba(127, 255, 212, 0.511);
+}
+.material-symbols-outlined{
+        margin-top: 6px;
+}
