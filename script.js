@@ -117,7 +117,8 @@ console.log(document.getElementsByTagName("select")[0].firstElementChild)
     const x1 = performance.now()
         let data;
         try {
-    let p = await fetch("https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies/" + currcode5 + "/" + currcode6 + ".json");
+            //https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/
+    let p = await fetch("https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/" + currcode5 + ".json");
     data = await p.json()
     }
     catch (error) {
@@ -125,7 +126,7 @@ console.log(document.getElementsByTagName("select")[0].firstElementChild)
         document.getElementsByClassName("output")[0].innerHTML = "error fetching currency possible reasons:(currency doesn't exist)";
     }
     console.log(data)
-    let rate = await data[currcode6]
+    let rate = await data[currcode5][currcode6]
     let lat_date = await data.date
     const x2 = performance.now();
     let finaloutput = numcount3 * rate;
